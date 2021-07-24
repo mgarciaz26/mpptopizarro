@@ -5000,7 +5000,8 @@ ul.category-list {
 .bg-dark-half-md:before,
 .bg-dark-half-sm:before {
   content: "";
-  background: #022d62;
+  /* background: #022d62; */
+  background: rgb(2 45 98 / 70%);
   width: 100%;
   display: inline-block;
   position: absolute;
@@ -5025,7 +5026,7 @@ ul.category-list {
 
 .bg-dark-half-lg:before,
 .bg-light-half-lg:before {
-  height: 470px; }
+  height: 320px; }
 
 .bg-dark-half-md:before,
 .bg-light-half-md:before {
