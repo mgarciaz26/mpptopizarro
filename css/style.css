@@ -4036,7 +4036,7 @@ ul.category-list {
   color: #ffffff;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 200px;
-          flex: 0 0 200px; }
+          flex: 0 0 120px; }
 
 .header .navbar-nav > li {
   display: -webkit-box;

@@ -68,21 +68,21 @@ POTENZA.isSticky = function () {
     Secondary Sticky
 *************************/
 POTENZA.secondarySticky = function () {
-  $(window).on('scroll',function(event) {
-        var scroll = $(window).scrollTop();
-        if (scroll < 500) {
-            $(".header-inner-nav").removeClass("page-menu-top");
-        }else{
-            $(".header-inner-nav").addClass("page-menu-top");
-        }
-        console.log($('div').hasClass('header-inner-nav'));
-        if( $('div').hasClass('header-inner-nav') ) {
-          var div_height = 90 + $('.header-inner-nav').height();
-          $('.is-sticky').css('top',div_height);
-        } else{
-          $('.is-sticky').css('top','80px');
-        }
-    });
+  // $(window).on('scroll',function(event) {
+  //       var scroll = $(window).scrollTop();
+  //       if (scroll < 500) {
+  //           $(".header-inner-nav").removeClass("page-menu-top");
+  //       }else{
+  //           $(".header-inner-nav").addClass("page-menu-top");
+  //       }
+  //       console.log($('div').hasClass('header-inner-nav'));
+  //       if( $('div').hasClass('header-inner-nav') ) {
+  //         var div_height = 90 + $('.header-inner-nav').height();          
+  //         $('.is-sticky').css('top',div_height);
+  //       } else{
+  //         $('.is-sticky').css('top','80px');
+  //       }
+  //   });
 
 	$( document ).on( 'click', '.header-inner-nav .nav-item a', function(){
 		$('.header-inner-nav .nav-item a').removeClass('active');
